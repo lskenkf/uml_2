@@ -1,0 +1,135 @@
+/* created with ERDot < https://github.com/ehne/ERDot > */
+digraph G {
+    graph [
+        nodesep=0.5;
+        rankdir="LR";
+        concentrate=true;
+        splines="spline";
+        fontname="Helvetica";
+        pad="0.2,0.2",
+        label="",
+        
+    ];
+    
+    node [shape=plain, fontname="Helvetica"];
+    edge [
+        dir=both,
+        fontsize=12,
+        arrowsize=0.9,
+        penwidth=1.0,
+        labelangle=32,
+        labeldistance=1.8,
+        fontname="Helvetica"
+    ];
+    
+    "Statistik_RUN_TIME_MONTH" [ label=<
+        <table border="0" cellborder="1" cellspacing="0" >
+        <tr><td><i>Statistik_RUN_TIME_MONTH</i></td></tr>
+        <tr><td port="OWNER" align="left" cellpadding="5">OWNER <font color="grey60">str</font></td></tr>
+        <tr><td port="TABLE_NAME" align="left" cellpadding="5">TABLE_NAME <font color="grey60">str</font></td></tr>
+        <tr><td port="COLUMN_NAME" align="left" cellpadding="5">COLUMN_NAME <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_DISTINCT" align="left" cellpadding="5">NUM_DISTINCT <font color="grey60">str</font></td></tr>
+        <tr><td port="LOW_VALUE" align="left" cellpadding="5">LOW_VALUE <font color="grey60">str</font></td></tr>
+        <tr><td port="HIGH_VALUE" align="left" cellpadding="5">HIGH_VALUE <font color="grey60">int64</font></td></tr>
+        <tr><td port="DENSITY" align="left" cellpadding="5">DENSITY <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_NULLS" align="left" cellpadding="5">NUM_NULLS <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_BUCKETS" align="left" cellpadding="5">NUM_BUCKETS <font color="grey60">int64</font></td></tr>
+        <tr><td port="LAST_ANALYZED" align="left" cellpadding="5">LAST_ANALYZED <font color="grey60">str</font></td></tr>
+        <tr><td port="SAMPLE_SIZE" align="left" cellpadding="5">SAMPLE_SIZE <font color="grey60">int64</font></td></tr>
+        <tr><td port="GLOBAL_STATS" align="left" cellpadding="5">GLOBAL_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="USER_STATS" align="left" cellpadding="5">USER_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="NOTES" align="left" cellpadding="5">NOTES <font color="grey60">str</font></td></tr>
+        <tr><td port="AVG_COL_LEN" align="left" cellpadding="5">AVG_COL_LEN <font color="grey60">int64</font></td></tr>
+        <tr><td port="HISTOGRAM" align="left" cellpadding="5">HISTOGRAM <font color="grey60">str</font></td></tr>
+        <tr><td port="SCOPE" align="left" cellpadding="5">SCOPE <font color="grey60">str</font></td></tr>
+    </table>>];
+    "Statistik_RUN_OMNI_ACC_ADOPTION" [ label=<
+        <table border="0" cellborder="1" cellspacing="0" >
+        <tr><td><i>Statistik_RUN_OMNI_ACC_ADOPTION</i></td></tr>
+        <tr><td port="OWNER" align="left" cellpadding="5">OWNER <font color="grey60">str</font></td></tr>
+        <tr><td port="TABLE_NAME" align="left" cellpadding="5">TABLE_NAME <font color="grey60">str</font></td></tr>
+        <tr><td port="COLUMN_NAME" align="left" cellpadding="5">COLUMN_NAME <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_DISTINCT" align="left" cellpadding="5">NUM_DISTINCT <font color="grey60">str</font></td></tr>
+        <tr><td port="LOW_VALUE" align="left" cellpadding="5">LOW_VALUE <font color="grey60">str</font></td></tr>
+        <tr><td port="HIGH_VALUE" align="left" cellpadding="5">HIGH_VALUE <font color="grey60">int64</font></td></tr>
+        <tr><td port="DENSITY" align="left" cellpadding="5">DENSITY <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_NULLS" align="left" cellpadding="5">NUM_NULLS <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_BUCKETS" align="left" cellpadding="5">NUM_BUCKETS <font color="grey60">str</font></td></tr>
+        <tr><td port="LAST_ANALYZED" align="left" cellpadding="5">LAST_ANALYZED <font color="grey60">str</font></td></tr>
+        <tr><td port="SAMPLE_SIZE" align="left" cellpadding="5">SAMPLE_SIZE <font color="grey60">str</font></td></tr>
+        <tr><td port="GLOBAL_STATS" align="left" cellpadding="5">GLOBAL_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="USER_STATS" align="left" cellpadding="5">USER_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="NOTES" align="left" cellpadding="5">NOTES <font color="grey60">str</font></td></tr>
+        <tr><td port="AVG_COL_LEN" align="left" cellpadding="5">AVG_COL_LEN <font color="grey60">str</font></td></tr>
+        <tr><td port="HISTOGRAM" align="left" cellpadding="5">HISTOGRAM <font color="grey60">str</font></td></tr>
+        <tr><td port="SCOPE" align="left" cellpadding="5">SCOPE <font color="grey60">str</font></td></tr>
+    </table>>];
+    "Statistik_D_OC_PHASE" [ label=<
+        <table border="0" cellborder="1" cellspacing="0" >
+        <tr><td><i>Statistik_D_OC_PHASE</i></td></tr>
+        <tr><td port="OWNER" align="left" cellpadding="5">OWNER <font color="grey60">str</font></td></tr>
+        <tr><td port="TABLE_NAME" align="left" cellpadding="5">TABLE_NAME <font color="grey60">str</font></td></tr>
+        <tr><td port="COLUMN_NAME" align="left" cellpadding="5">COLUMN_NAME <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_DISTINCT" align="left" cellpadding="5">NUM_DISTINCT <font color="grey60">str</font></td></tr>
+        <tr><td port="LOW_VALUE" align="left" cellpadding="5">LOW_VALUE <font color="grey60">str</font></td></tr>
+        <tr><td port="HIGH_VALUE" align="left" cellpadding="5">HIGH_VALUE <font color="grey60">int64</font></td></tr>
+        <tr><td port="DENSITY" align="left" cellpadding="5">DENSITY <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_NULLS" align="left" cellpadding="5">NUM_NULLS <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_BUCKETS" align="left" cellpadding="5">NUM_BUCKETS <font color="grey60">str</font></td></tr>
+        <tr><td port="LAST_ANALYZED" align="left" cellpadding="5">LAST_ANALYZED <font color="grey60">str</font></td></tr>
+        <tr><td port="SAMPLE_SIZE" align="left" cellpadding="5">SAMPLE_SIZE <font color="grey60">str</font></td></tr>
+        <tr><td port="GLOBAL_STATS" align="left" cellpadding="5">GLOBAL_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="USER_STATS" align="left" cellpadding="5">USER_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="NOTES" align="left" cellpadding="5">NOTES <font color="grey60">float64</font></td></tr>
+        <tr><td port="AVG_COL_LEN" align="left" cellpadding="5">AVG_COL_LEN <font color="grey60">str</font></td></tr>
+        <tr><td port="HISTOGRAM" align="left" cellpadding="5">HISTOGRAM <font color="grey60">str</font></td></tr>
+        <tr><td port="SCOPE" align="left" cellpadding="5">SCOPE <font color="grey60">str</font></td></tr>
+    </table>>];
+    "Statistik_RUN_OMNI_ACC_ADOPTION_MONTH" [ label=<
+        <table border="0" cellborder="1" cellspacing="0" >
+        <tr><td><i>Statistik_RUN_OMNI_ACC_ADOPTION_MONTH</i></td></tr>
+        <tr><td port="OWNER" align="left" cellpadding="5">OWNER <font color="grey60">str</font></td></tr>
+        <tr><td port="TABLE_NAME" align="left" cellpadding="5">TABLE_NAME <font color="grey60">str</font></td></tr>
+        <tr><td port="COLUMN_NAME" align="left" cellpadding="5">COLUMN_NAME <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_DISTINCT" align="left" cellpadding="5">NUM_DISTINCT <font color="grey60">str</font></td></tr>
+        <tr><td port="LOW_VALUE" align="left" cellpadding="5">LOW_VALUE <font color="grey60">str</font></td></tr>
+        <tr><td port="HIGH_VALUE" align="left" cellpadding="5">HIGH_VALUE <font color="grey60">int64</font></td></tr>
+        <tr><td port="DENSITY" align="left" cellpadding="5">DENSITY <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_NULLS" align="left" cellpadding="5">NUM_NULLS <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_BUCKETS" align="left" cellpadding="5">NUM_BUCKETS <font color="grey60">str</font></td></tr>
+        <tr><td port="LAST_ANALYZED" align="left" cellpadding="5">LAST_ANALYZED <font color="grey60">str</font></td></tr>
+        <tr><td port="SAMPLE_SIZE" align="left" cellpadding="5">SAMPLE_SIZE <font color="grey60">str</font></td></tr>
+        <tr><td port="GLOBAL_STATS" align="left" cellpadding="5">GLOBAL_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="USER_STATS" align="left" cellpadding="5">USER_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="NOTES" align="left" cellpadding="5">NOTES <font color="grey60">str</font></td></tr>
+        <tr><td port="AVG_COL_LEN" align="left" cellpadding="5">AVG_COL_LEN <font color="grey60">str</font></td></tr>
+        <tr><td port="HISTOGRAM" align="left" cellpadding="5">HISTOGRAM <font color="grey60">str</font></td></tr>
+        <tr><td port="SCOPE" align="left" cellpadding="5">SCOPE <font color="grey60">str</font></td></tr>
+    </table>>];
+    "Statistik_D_OC_CAMPAIGN" [ label=<
+        <table border="0" cellborder="1" cellspacing="0" >
+        <tr><td><i>Statistik_D_OC_CAMPAIGN</i></td></tr>
+        <tr><td port="OWNER" align="left" cellpadding="5">OWNER <font color="grey60">str</font></td></tr>
+        <tr><td port="TABLE_NAME" align="left" cellpadding="5">TABLE_NAME <font color="grey60">str</font></td></tr>
+        <tr><td port="COLUMN_NAME" align="left" cellpadding="5">COLUMN_NAME <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_DISTINCT" align="left" cellpadding="5">NUM_DISTINCT <font color="grey60">str</font></td></tr>
+        <tr><td port="LOW_VALUE" align="left" cellpadding="5">LOW_VALUE <font color="grey60">str</font></td></tr>
+        <tr><td port="HIGH_VALUE" align="left" cellpadding="5">HIGH_VALUE <font color="grey60">int64</font></td></tr>
+        <tr><td port="DENSITY" align="left" cellpadding="5">DENSITY <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_NULLS" align="left" cellpadding="5">NUM_NULLS <font color="grey60">int64</font></td></tr>
+        <tr><td port="NUM_BUCKETS" align="left" cellpadding="5">NUM_BUCKETS <font color="grey60">str</font></td></tr>
+        <tr><td port="LAST_ANALYZED" align="left" cellpadding="5">LAST_ANALYZED <font color="grey60">str</font></td></tr>
+        <tr><td port="SAMPLE_SIZE" align="left" cellpadding="5">SAMPLE_SIZE <font color="grey60">str</font></td></tr>
+        <tr><td port="GLOBAL_STATS" align="left" cellpadding="5">GLOBAL_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="USER_STATS" align="left" cellpadding="5">USER_STATS <font color="grey60">str</font></td></tr>
+        <tr><td port="NOTES" align="left" cellpadding="5">NOTES <font color="grey60">float64</font></td></tr>
+        <tr><td port="AVG_COL_LEN" align="left" cellpadding="5">AVG_COL_LEN <font color="grey60">str</font></td></tr>
+        <tr><td port="HISTOGRAM" align="left" cellpadding="5">HISTOGRAM <font color="grey60">str</font></td></tr>
+        <tr><td port="SCOPE" align="left" cellpadding="5">SCOPE <font color="grey60">str</font></td></tr>
+    </table>>];
+
+
+
+    {rank=same Statistik_RUN_TIME_MONTH Statistik_RUN_OMNI_ACC_ADOPTION Statistik_D_OC_PHASE}{rank=same Statistik_RUN_OMNI_ACC_ADOPTION_MONTH Statistik_D_OC_CAMPAIGN}
+
+}
